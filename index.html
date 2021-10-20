@@ -15,26 +15,40 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="location">New York</h1>
-      <ul>
-        <li class="time">Tuesday 09:38</li>
-        <li class="weatherDesc">Clear</li>
-      </ul>
-      <div class="row">
-        <div class="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
-            alt="weather icon"
-          />
-          12 °C | °F
+      <div class="weather-app">
+        <div class="row">
+          <div class="col-4 firstCol">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
+              alt="weather icon"
+            />
+            <span class="currentTemp"> 12 </span>°C | °F
+          </div>
+          <div class="col-3 secondCol">
+            <ul>
+              <li>Precipitation: <span class="precipitation">0</span> %</li>
+              <li>Humidity: <span class="humidity">7</span>%</li>
+              <li>Wind: <span class="wind">2</span> km/h</li>
+            </ul>
+          </div>
+          <div class="col-5 thirdsCol">
+            <ul>
+              <li class="location">New York, NY, USA</li>
+              <li class="time">Tuesday 09:38</li>
+              <li class="weatherDesc">Clear</li>
+            </ul>
+          </div>
         </div>
-        <div class="col-6">
-          <ul>
-            <li>Precipitation: <span class="precipitation">0</span> %</li>
-            <li>Humidity: <span class="humidity">7</span>%</li>
-            <li>Wind: <span class="wind">2</span> km/h</li>
-          </ul>
-        </div>
+        <hr />
+        <small class="coder"
+          >Open source code on
+          <a
+            href="https://github.com/nsrnroshani/Vanilla-Weather-App"
+            target="_blank"
+            >Github</a
+          >
+          by Nasrin Roshani
+        </small>
       </div>
     </div>
     <script src="app.js"></script>
