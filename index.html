@@ -11,6 +11,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     /> <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>;
     <title>Vanilla Weather App</title>
   </head>
   <body>
@@ -26,23 +27,23 @@
                   class="float-left"
                 />
                 <div class="float-left">
-                  <strong> 12</strong> <span class="units"><a href="#">°C</a>| <a href="#">°F</a></span>
+                  <strong id="temperature"> 12</strong> <span class="units"><a href="#">°C</a>| <a href="#">°F</a></span>
                 </div>
               </div>
             </div>
             <div class="col-3 second-col">
               <ul>
-                <li>Precipitation: <span class="precipitation">0</span> %</li>
-                <li>Humidity: <span class="humidity">7</span>%</li>
-                <li>Wind: <span class="wind">2</span> km/h</li>
+                <!-- <li>Precipitation: <span id="precipitation">0</span> %</li> -->
+                <li>Humidity: <span id="humidity">7</span>%</li>
+                <li>Wind: <span id="wind">2</span> km/h</li>
               </ul>
             </div>
 
             <div class="col-5 third-col">
               <ul>
-                <li class="location">New York, NY, USA</li>
-                <li class="time">Tuesday 09:38</li>
-                <li class="weatherDesc">Clear</li>
+                <li id="city">New York, NY, USA</li>
+                <li id="date">Tuesday 09:38</li>
+                <li id="description">Clear</li>
               </ul>
             </div>
           </div>
