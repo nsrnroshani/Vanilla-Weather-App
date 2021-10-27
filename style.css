@@ -31,13 +31,13 @@ li:first-letter {
 }
 
 .third-col {
-  text-align: right;
   line-height: 20px;
   color: #70757a;
 }
 .second-col {
+  text-align: right;
   color: #70757a;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 16px;
 }
 .coder {
