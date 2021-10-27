@@ -22,7 +22,7 @@
           <form id="search-form" class="mb-3">
             <div class="row">
               <div class="col-9">
-            <input type="text" placeholder="Enter a city" class="form-control " ></div>
+            <input type="search" placeholder="Enter a city" class="form-control " id="city-input" autocomplete="off"></div>
             <div class="col-3">
             <input type="submit" value="Search" class="btn btn-secondary ">
           </div></div></form>
@@ -45,14 +45,14 @@
 
             <div class="col-6 third-col">
               <ul>
-                <li id="city"></li>
-                <li id="date">Tuesday 09:38</li>
-                <li id="description">Clear</li>
+                <li id="city">New York</li>
+                <span>Last updated:</span><li id="date">Wednesday 09:12</li>
+                <li id="description">Light rain</li>
               </ul>
             </div><div class="col-6 second-col">
               <ul>
                 <!-- <li>Precipitation: <span id="precipitation">0</span> %</li> -->
-                <li>Humidity: <span id="humidity">7</span>%</li>
+                <li>Humidity: <span id="humidity">92</span>%</li>
                 <li>Wind: <span id="wind">2</span> km/h</li>
               </ul>
             </div>
