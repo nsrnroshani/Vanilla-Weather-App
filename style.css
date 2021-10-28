@@ -76,9 +76,20 @@ a {
   color: rgb(32, 33, 36);
 }
 
-/* #fahrenheit-link {
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  color: rgb(32, 33, 36);
+  line-height: 15px;
+}
+.weather-forecast-temperature {
+  font-size: 13px;
+  color: rgb(32, 33, 36);
+  line-height: 15px;
+}
+.weather-forecast-temperature-min {
   color: rgb(112, 117, 122);
 }
-#fahrenheit-link:hover {
-  color: rgb(112, 117, 122);
-} */
