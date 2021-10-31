@@ -41,51 +41,46 @@
                 </div>
               </div>
             </form>
-
-            <div class="clearfix weather-temperature">
-              <img
-                src="https://openweathermap.org/img/wn/10n@2x.png"
-                alt="sunny"
-                id="icon"
-                class="float-left"
-              />
-              <div class="float-left">
-                <strong id="temperature"> </strong>
-                <span class="units"
-                  ><a href="#" id="celsius-link" class="active">°C </a>|
-                  <a href="#" id="fahrenheit-link">°F</a></span
-                >
+            <div class="row">
+              <div class="col-6">
+                <div class="clearfix weather-temperature">
+                  <img
+                    src="https://openweathermap.org/img/wn/10n@2x.png"
+                    alt="sunny"
+                    id="icon"
+                    class="float-left"
+                  />
+                  <div class="float-left">
+                    <strong id="temperature"> </strong>
+                    <span class="units">°C </span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-5 first-col">
+                <ul>
+                  <li id="city"></li>
+                  <li id="date">Wednesday 09:12</li>
+                  <li id="description">Light rain</li>
+                  <li class="humidity">
+                    Humidity: <span id="humidity">92</span>%
+                  </li>
+                  <li class="wind">Wind: <span id="wind">2</span> km/h</li>
+                </ul>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-6 third-col">
-              <ul>
-                <li id="city">New York</li>
-                <li id="date">Wednesday 09:12</li>
-                <li id="description">Light rain</li>
-              </ul>
-            </div>
-            <div class="col-6 second-col">
-              <ul>
-                <!-- <li>Precipitation: <span id="precipitation">0</span> %</li> -->
-                <li>Humidity: <span id="humidity">92</span>%</li>
-                <li>Wind: <span id="wind">2</span> km/h</li>
-              </ul>
-            </div>
-          </div>
-          <div class="weather-forecast" id="forecast"></div>
 
-          <small class="coder"
-            >Open source code on
-            <a
-              href="https://github.com/nsrnroshani/Vanilla-Weather-App"
-              target="_blank"
-              >Github</a
-            >
-            by Nasrin Roshani
-          </small>
+          <div class="weather-forecast" id="forecast"></div>
         </div>
+        <small class="coder"
+          >Open source code on
+          <a
+            href="https://github.com/nsrnroshani/Vanilla-Weather-App"
+            target="_blank"
+            >Github</a
+          >
+          by Nasrin Roshani
+        </small>
       </div>
     </div>
     <script src="app.js"></script>

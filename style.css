@@ -13,6 +13,7 @@ li {
 li:first-letter {
   text-transform: capitalize;
 }
+
 .weather-app-wrapper {
   max-width: 700px;
   margin: 50px auto;
@@ -23,23 +24,29 @@ li:first-letter {
   border-radius: 10px;
 }
 
-.location {
+#city {
   font-size: 22px;
-  line-height: 28px;
-  font-weight: 100;
+  font-weight: 400;
+  line-height: 26px;
   margin-bottom: 0;
+  color: rgb(32, 33, 36);
 }
-
-.third-col {
-  line-height: 20px;
-  color: #70757a;
-}
-.second-col {
-  text-align: right;
-  color: #70757a;
+.humidity {
   font-size: 14px;
   line-height: 16px;
 }
+.wind {
+  font-size: 14px;
+  line-height: 16px;
+}
+.first-col {
+  line-height: 20px;
+  color: #70757a;
+  margin-top: 3px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
 .coder {
   font-size: 12px;
   color: #70757a;
@@ -68,12 +75,6 @@ li:first-letter {
 }
 a {
   text-decoration: none;
-}
-.active {
-  color: rgb(32, 33, 36);
-}
-.active:hover {
-  color: rgb(32, 33, 36);
 }
 
 .weather-forecast {
