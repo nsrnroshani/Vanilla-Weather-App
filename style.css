@@ -32,11 +32,11 @@ li:first-letter {
   color: rgb(32, 33, 36);
 }
 .humidity {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
 }
 .wind {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 16px;
 }
 .first-col {
@@ -65,7 +65,6 @@ li:first-letter {
   color: rgb(32, 33, 36);
   font-size: 64px;
   font-weight: 400;
-
   line-height: 70px;
 }
 .weather-temperature .units {
